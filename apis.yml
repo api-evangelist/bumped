@@ -1,7 +1,25 @@
 aid: bumped
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bumped.png
 name: Bumped
-description: Bumped is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Bumped was a Portland, Oregon-based fintech that rewarded consumers with fractional shares
+  of publicly traded stock in the brands and companies they shop with, turning everyday spending and
+  loyalty into equity ownership. Backed by Canaan Partners, the company operated a consumer investing
+  and rewards application before winding down its consumer product. It was surfaced through the Canaan
+  Partners portfolio and added to the API Evangelist network. During enrichment no live public developer
+  surface, API, documentation, package, or well-known discovery endpoint could be located -- the primary
+  domain (bumped.com) no longer resolves and related domains are parked -- so this remains an
+  identity-only profile with no active API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/bumped/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+x-enrichment-status: no-live-surface
+x-enrichment-note: 'bumped.com does not resolve (defunct); bumped.co/getbumped.com parked; no API,
+  docs, packages, or well-known endpoints found 2026-07-18.'
 tags:
 - Company
+- Fintech
+- Financial Services
+- Investing
+- Loyalty Rewards
+- Stocks
+- Consumer Finance
+- Portfolio Company
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
