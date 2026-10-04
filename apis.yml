@@ -47,7 +47,7 @@ x-enrichment-note: 'bumped.com does not resolve (defunct); bumped.co/getbumped.c
 tags:
 - Company
 - Fintech
-- Financial-Services
+- Financial Services
 - Investing
 - Loyalty Rewards
 - Stocks
@@ -62,6 +62,7 @@ tags_raw:
 - Stocks
 - Consumer Finance
 - Portfolio Company
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
